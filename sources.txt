@@ -1,0 +1,8 @@
+Prompt1 Convo0 Code generation
+https://chat.openai.com/share/cfcf1aa4-f354-4766-8cd8-38c3ab5468ec
+Prompt2 Convo1 Code Debugging
+https://chat.openai.com/share/2d734e46-9d9e-4bd8-894b-08390b4f7295
+Individual tuning convos
+https://chat.openai.com/share/9e6c58a3-c163-4705-a989-d989495d5e42
+https://chat.openai.com/share/18d2ba8c-240b-4614-b01f-24dfbbe32260
+https://chat.openai.com/share/9dc5a5c5-0c78-49e1-88f0-dc8414a309c2

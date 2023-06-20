@@ -1,0 +1,38 @@
+The next 5 inputs are python3.10 files. You will only write the name given in line1 of each input as your response.
+A python program that:
+var0. Creates Valid_Adresses.csv and IP_Port_Results.csv if not found
+var1. Scans an IPs between a user inputed Start and End range. Store valid IP adresses in Valid_Adresses.csv
+var2. Check every IP in Adresses.csv between a user inputed start and end rang. request http/https codes and log them to IP_Port_Results.csv
+var3. Asks if user wants to filter via numerical choice of http/https codes to be displayed.
+var4. Make 0 the defualt go back command.
+var5. Has Degbug level logging
+var6. threading at a user defined max for scanning
+PROJECT CODE MUST DO var1-var5
+Project directory outline, Everything after ">" on the same line is a descriptor:
+
+modules(subdir),main.py > User numerical menu
+|-CSV_Handler.py > handles creation of and writing to csv files
+|-HTTP_HTTPS_Handler.py > Handles code requests sends results to CSV_Handler.py, Used in Scanner.py
+|-Ranges.py > handles the setting and storing of IP and Port ranges used in Scanner.py
+|-Scanner.py > Pulls ranges from Ranges.py Scans valid IPs sends them to CSV_Handler then using HTTP_HTTPS_Handler.py it goes over port in the given range for ever IP in Valid_Addresses.csv
+!!!Say Only "I AGREE"!!! to confirm.
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Second Prompt after file inputs>>>>>>>
+For the next 5 inputs you will only rewrite code for the file asked for or needed to fix/modify as described in the input.
+
+A python program that:
+var0. Creates Valid_Adresses.csv and IP_Port_Results.csv if not found
+var1. Scans an IPs between a user inputed Start and End range. Store valid IP adresses in Valid_Adresses.csv
+var2. Check every IP in Adresses.csv between a user inputed start and end rang. request http/https codes and log them to IP_Port_Results.csv
+var3. Asks if user wants to filter via numerical choice of http/https codes to be displayed.
+var4. Make 0 the defualt go back command.
+var5. Has Degbug level logging
+PROJECT CODE MUST DO var1-var5
+Project directory outline, Everything after ">" on the same line is a descriptor:
+
+modules(subdir),main.py > User numerical menu
+|-CSV_Handler.py > handles creation of and writing to csv files
+|-HTTP_HTTPS_Handler.py > Handles code requests sends results to CSV_Handler.py, Used in Scanner.py
+|-Ranges.py > handles the setting and storing of IP and Port ranges used in Scanner.py
+|-Scanner.py > Pulls ranges from Ranges.py Scans valid IPs sends them to CSV_Handler then using HTTP_HTTPS_Handler.py it goes over port in the given range for ever IP in Valid_Addresses.csv
+
+!!!Say Only "I AGREE" to Confirm!!!
